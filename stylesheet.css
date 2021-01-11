@@ -1,0 +1,72 @@
+* {
+  padding: 5px;
+  font-size: 15px;
+}
+
+body {
+  background: url('https://www.xmple.com/wallpaper/gradient-pink-purple-linear-1920x1080-c2-6a5acd-ff69b4-a-255-f-14.svg') no-repeat center center fixed;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  height: 95vh;  
+}
+
+button {
+  background-color: rgb(232, 190, 245);
+  color: rgb(148, 0, 216);
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+input, select, textarea{
+  background-color:rgb(232, 190, 245);
+  font-weight: bold;
+}
+
+textarea:focus, input:focus {
+  color: rgb(148, 0, 216);
+}
+
+::placeholder {
+  color: rgb(148, 0, 216);
+  font-weight: bold;
+}
+
+#main {
+  width: 45%;
+  height: 60%;
+  background-color: rgba(193, 141, 253, 0.5);
+  text-align: left;
+  border: 2px solid rgb(80, 0, 87);
+}
+
+#header {
+  width: 99%;
+  border-bottom: 1px solid rgb(80, 0, 87);
+  color: rgb(134, 0, 128);
+}
+
+#wasd{
+  width: 99%;
+  padding: 20px 0px 20px 10px;
+  border-bottom: 1px solid rgb(80, 0, 87);
+}
+
+.italic {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+
+#ddd {
+  width: 99%;
+  padding: 20px;
+  text-align: center;
+}
+
+#asd {
+  color: rgb(134, 0, 128);
+  font-size: 25px;
+  letter-spacing: 3px;
+}
